@@ -26,3 +26,10 @@ if let nam = name {
 if let hi = high {
     print(hi)
 }
+
+func doPrint(num: Int?) {
+    guard let n = num else { return }
+    print(n)
+}
+
+doPrint(num: number)

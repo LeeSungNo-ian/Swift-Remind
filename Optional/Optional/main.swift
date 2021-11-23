@@ -18,3 +18,11 @@ print(high)
 if let num = number {
     print(num)
 }
+
+if let nam = name {
+    print(nam)
+}
+
+if let hi = high {
+    print(hi)
+}

@@ -10,3 +10,7 @@ import Foundation
 var number: Int? = 5
 var name: String? = "이안"
 var high: Double? = 3.3
+
+print(number)
+print(name)
+print(high)

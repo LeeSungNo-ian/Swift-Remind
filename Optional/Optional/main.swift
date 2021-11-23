@@ -14,3 +14,7 @@ var high: Double? = 3.3
 print(number)
 print(name)
 print(high)
+
+if let num = number {
+    print(num)
+}

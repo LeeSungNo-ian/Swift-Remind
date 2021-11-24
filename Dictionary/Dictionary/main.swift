@@ -18,3 +18,9 @@ var dic1 = [String: [String]]()
 dic1["arr1"] = ["A", "B", "C"]
 dic1["arr2"] = ["D", "E", "F"]
 print(dic1)
+
+var dic2 = [String: [String: Int]]()
+
+dic2["dict1"] = ["name": 1, "age": 2]
+dic2["dict2"] = ["name": 2, "age": 3]
+print(dic2)

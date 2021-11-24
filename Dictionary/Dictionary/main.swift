@@ -8,4 +8,9 @@
 import Foundation
 
 let a = ["A": "Airplane", "B": "Billi", "C": "Cat"]
-let b = ["A": "Airplane", "C": "Cat", "B": "Billi",]
+let b = ["A": "Airplane", "C": "Cat", "B": "Billi"]
+
+print(a == b)
+print(a != b)
+
+

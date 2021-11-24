@@ -13,4 +13,8 @@ let b = ["A": "Airplane", "C": "Cat", "B": "Billi"]
 print(a == b)
 print(a != b)
 
+var dic1 = [String: [String]]()
 
+dic1["arr1"] = ["A", "B", "C"]
+dic1["arr2"] = ["D", "E", "F"]
+print(dic1)

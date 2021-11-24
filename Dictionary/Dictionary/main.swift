@@ -24,3 +24,9 @@ var dic2 = [String: [String: Int]]()
 dic2["dict1"] = ["name": 1, "age": 2]
 dic2["dict2"] = ["name": 2, "age": 3]
 print(dic2)
+
+let dict = ["A": "Airplane", "B": "Billi", "C": "Cat"]
+
+for (key, value) in dict {
+    print("\(key): \(value)")
+}

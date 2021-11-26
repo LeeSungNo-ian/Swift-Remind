@@ -17,14 +17,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Xr-z9-6Y6">
-                                <rect key="frame" x="174" y="625" width="85" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Xr-z9-6Y6">
+                                <rect key="frame" x="147" y="727" width="120" height="35"/>
                                 <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="fGH-dl-44u"/>
+                                    <constraint firstAttribute="height" constant="35" id="vVI-Dk-Qzy"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="htc-ir-Xjb"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="반갑습니다" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1z-Kh-z7V">
                                 <rect key="frame" x="107" y="284" width="200" height="35"/>
@@ -40,10 +46,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2Xr-z9-6Y6" secondAttribute="bottom" constant="100" id="QW5-s4-GC8"/>
                             <constraint firstItem="I1z-Kh-z7V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W5p-Vf-soO"/>
+                            <constraint firstItem="2Xr-z9-6Y6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="da6-tj-k8K"/>
                             <constraint firstItem="I1z-Kh-z7V" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="240" id="dip-AS-mWT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mainLabel" destination="I1z-Kh-z7V" id="4Ea-Tp-qBl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

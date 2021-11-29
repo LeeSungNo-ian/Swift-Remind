@@ -16,9 +16,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        mainLabel.backgroundColor = UIColor.yellow
     }
 
     @IBAction func buttonPressed(_ sender: UIButton) {
+        mainLabel.text = "안녕하세요"
     }
     
     

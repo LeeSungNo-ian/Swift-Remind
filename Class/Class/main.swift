@@ -8,11 +8,12 @@
 import Foundation
 
 class Dog {
-    var name = "강아지"
-    var weight = 0.0
+    var name: String
+    var weight: Double
     
-    func sit() {
-        print("앉았습니다.")
+    init(n: String, w: Double) {
+        name = n
+        weight = w
     }
 }
 

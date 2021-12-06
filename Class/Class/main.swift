@@ -13,3 +13,5 @@ class Dog {
 }
 
 var bori = Dog()
+print(bori.name)
+print(bori.weight)

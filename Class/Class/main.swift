@@ -8,5 +8,6 @@
 import Foundation
 
 class Dog {
-    
+    var name = "강아지"
+    var weight = 0.0
 }

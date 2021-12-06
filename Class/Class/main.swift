@@ -32,3 +32,5 @@ class Book {
         self.page = page
     }
 }
+
+var book1 = Book(name: "이안", price: 300, whereCom: "몰라", whoWrite: "이안이야", page: 39)

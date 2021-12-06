@@ -11,9 +11,9 @@ class Dog {
     var name: String
     var weight: Double
     
-    init(n: String, w: Double) {
-        name = n
-        weight = w
+    init(name: String, weight: Double) {
+        self.name = name
+        self.weight = weight
     }
 }
 

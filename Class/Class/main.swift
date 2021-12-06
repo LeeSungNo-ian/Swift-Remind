@@ -21,3 +21,9 @@ var choco = Dog()
 choco.name = "초코"
 print(choco.name)
 print(choco.weight)
+
+class Book {
+    var name = "책제목"
+    var price = 0
+    var page = 0
+}

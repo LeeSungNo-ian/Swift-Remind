@@ -7,5 +7,16 @@
 
 import Foundation
 
-print("Hello, World!")
+struct Bird {
+    var name = "새"
+    var weight = 0.0
+    
+    func sit() {
+        print("날고 있습니다.")
+    }
+}
 
+var bird1 = Bird()
+bird1.weight = 3
+bird1.name = "참새"
+bird1.sit()

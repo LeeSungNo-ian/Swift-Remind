@@ -13,5 +13,11 @@ class Dog {
 }
 
 var bori = Dog()
+bori.name = "보리"
 print(bori.name)
 print(bori.weight)
+
+var choco = Dog()
+choco.name = "초코"
+print(choco.name)
+print(choco.weight)

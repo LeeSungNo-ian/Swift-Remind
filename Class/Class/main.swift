@@ -7,30 +7,23 @@
 
 import Foundation
 
-class Dog {
-    var name: String
-    var weight: Double
+class Person {
+    var birth: Int = 0
     
-    init(name: String, weight: Double) {
-        self.name = name
-        self.weight = weight
+    var age: Int {
+        get {
+            return 2021 - birth
+        }
+        set(age) {
+            self.birth = 2021 - age
+        }
+    }
+    
+    func getAge() -> Int {
+        return 2021 - birth
+    }
+    
+    func setAge(_ age: Int) {
+        self.birth = 2021 - age
     }
 }
-
-class Book {
-    var name: String
-    var price: Int
-    var whereCom: String
-    var whoWrite: String
-    var page: Int
-    
-    init(name: String, price: Int, whereCom: String, whoWrite: String, page: Int) {
-        self.name = name
-        self.price = price
-        self.whereCom = whereCom
-        self.whoWrite = whoWrite
-        self.page = page
-    }
-}
-
-var book1 = Book(name: "이안", price: 300, whereCom: "몰라", whoWrite: "이안이야", page: 39)

@@ -27,3 +27,7 @@ class Person {
         self.birth = 2021 - age
     }
 }
+
+var p1 = Person()
+p1.birth = 2000
+p1.age

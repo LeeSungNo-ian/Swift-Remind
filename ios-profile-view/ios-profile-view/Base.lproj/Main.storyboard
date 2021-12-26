@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ios_profile_view" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이 성노" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlV-vk-cqe">
+                                <rect key="frame" x="190" y="74" width="204" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="isnn0103@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ny4-Uw-CKo">
+                                <rect key="frame" x="190" y="138.5" width="204" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="010 8754 3908" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPC-Ml-Jgt">
+                                <rect key="frame" x="190" y="203" width="204" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zDq-04-k6b">
+                                <rect key="frame" x="30" y="254" width="354" height="578"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text"> 저는 이성노 라고 하고요 .. 애플 디벨로퍼 아카데미에 진심인 사람입니다 .. 뉴스가 나온 2021년 5월 부터 기다리던 사람입니다 ..   저는 애플에 정말 진심이에요 .. 이렇게 진심인 적이 몇 없던 것 같아요 ..  열심히 하겠습니다 !</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KakaoTalk_Image_2021-12-10-21-53-38" translatesAutoresizingMaskIntoConstraints="NO" id="yKt-HM-OBC">
+                                <rect key="frame" x="30" y="74" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="yKt-HM-OBC" secondAttribute="height" multiplier="1:1" id="Fkl-BL-r7c"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="150" id="RhV-V9-PYb"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vlV-vk-cqe" firstAttribute="leading" secondItem="yKt-HM-OBC" secondAttribute="trailing" constant="10" id="EZp-1N-6i9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vlV-vk-cqe" secondAttribute="trailing" constant="20" id="Fo5-SW-2zU"/>
+                            <constraint firstItem="DPC-Ml-Jgt" firstAttribute="leading" secondItem="ny4-Uw-CKo" secondAttribute="leading" id="GOv-6N-5Kd"/>
+                            <constraint firstItem="DPC-Ml-Jgt" firstAttribute="trailing" secondItem="ny4-Uw-CKo" secondAttribute="trailing" id="HRs-xN-PZ5"/>
+                            <constraint firstItem="vlV-vk-cqe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="L9g-xM-H6g"/>
+                            <constraint firstItem="zDq-04-k6b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Lxg-F2-kwM"/>
+                            <constraint firstItem="ny4-Uw-CKo" firstAttribute="centerY" secondItem="yKt-HM-OBC" secondAttribute="centerY" id="Mue-e4-XX6"/>
+                            <constraint firstItem="ny4-Uw-CKo" firstAttribute="leading" secondItem="vlV-vk-cqe" secondAttribute="leading" id="SaN-sh-VlN"/>
+                            <constraint firstItem="yKt-HM-OBC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="UVu-VD-dQp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zDq-04-k6b" secondAttribute="bottom" constant="30" id="aXj-HE-Kxc"/>
+                            <constraint firstItem="yKt-HM-OBC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="cd1-fk-ksr"/>
+                            <constraint firstItem="yKt-HM-OBC" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="30%" priority="750" id="iMT-t9-zUl"/>
+                            <constraint firstItem="ny4-Uw-CKo" firstAttribute="trailing" secondItem="vlV-vk-cqe" secondAttribute="trailing" id="jqV-U1-JyY"/>
+                            <constraint firstItem="DPC-Ml-Jgt" firstAttribute="bottom" secondItem="yKt-HM-OBC" secondAttribute="bottom" id="oIz-fq-ev0"/>
+                            <constraint firstItem="vlV-vk-cqe" firstAttribute="top" secondItem="yKt-HM-OBC" secondAttribute="top" id="thu-6u-hJs"/>
+                            <constraint firstItem="zDq-04-k6b" firstAttribute="top" secondItem="yKt-HM-OBC" secondAttribute="bottom" constant="30" id="wHT-vP-zyL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zDq-04-k6b" secondAttribute="trailing" constant="30" id="yfj-UQ-FmQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="105.80357142857143"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="KakaoTalk_Image_2021-12-10-21-53-38" width="682.66668701171875" height="682.66668701171875"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -6,7 +6,7 @@
 
 2022년 01월 07일
 
-2022년 01월 06일
+[2022년 01월 06일](https://velog.io/@ian/TIL-0106-Extensions)
 
 [2022년 01월 05일](https://velog.io/@ian/TIL-0105-%EC%8B%A4%ED%8C%A8-%EA%B0%80%EB%8A%A5-%EC%83%9D%EC%84%B1%EC%9E%90-%EC%86%8C%EB%A9%B8%EC%9E%90-isas-%EC%97%B0%EC%82%B0%EC%9E%90-%EB%8B%A4%ED%98%95%EC%84%B1-AnyAnyobject)
 

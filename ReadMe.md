@@ -2,7 +2,7 @@
 
 ---
 
-2022년 01월 12일
+[2022년 01월 12일](https://velog.io/@ian/TIL-0112)
 
 [2022년 01월 11일](https://velog.io/@ian/TIL-0111)
 
